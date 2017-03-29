@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>MMT</title>
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+  <body>
+    <div class="hero">
+      <div class="container">
+        <div class="logo">
+          <img src="img/MMT_logo.svg" alt="">
+        </div>
+        <nav class="nav">
+          <a class="nav__link" href="#">WORK</a>
+          <a class="nav__link" href="#">ABOUT</a>
+          <a class="nav__link" href="#">UPLOAD ARTWORK</a>
+          <a class="btn nav__btn" href="#">LOGIN</a>
+        </nav>
+        <div class="call-to-action">
+          <h1 class="cta__heading"><span class="emphasis">Revolutionizing</span> the outdoor advertising industry since 1987 with our proprietary system for large format graphics.</h1>
+          <div class="btn__play" id="video-btn">
+            <div class="arrow-right"></div>
+          </div>
+          <span class="btn__label">WATCH OUR VIDEO</span>
+        </div>
+      </div>
+      <div class="hero-placeholder"></div>
+      <video class="video-bg" id="video" poster="img/video-poster.png" onloadstart="this.volume=0.1">
+        <source src="video/1247589.mp4" type="video/mp4"/>
+      </video>
+    </div>
+    <section>
+      <!-- <div class="arrow-down">
+        <img src="img/arrow-down-icon.svg" alt="">
+      </div> -->
+      <div class="products-container">
+        <div class="product">
+          <div class="product__heading">
+            <div class="product__icon"><img src="img/billboard-icon.svg" alt=""></div>
+            <!-- <span class="product__title">Traditional Outdoor</span> -->
+          </div>
+          <p class="product__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+        <div class="product">
+          <div class="product__heading">
+            <div class="product__icon"><img src="img/bus-shelter-icon.svg" alt=""></div>
+            <!-- <span class="product__title">Transit</span> -->
+          </div>
+          <p class="product__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+        <div class="product">
+          <div class="product__heading">
+            <div class="product__icon"><img src="img/building-icon.svg" alt=""></div>
+            <!-- <span class="product__title">Wallscapes</span> -->
+          </div>
+          <p class="product__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+        <div class="product">
+          <div class="product__heading">
+            <div class="product__icon"><img src="img/stadium-icon.svg" alt=""></div>
+            <!-- <span class="product__title">Sports &amp; Events</span> -->
+          </div>
+          <p class="product__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+      </div>
+    </section>
+    <div class="test">
+
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous">
+    </script>
+    <script src="js/scroll.js" charset="utf-8"></script>
+    <script src="js/app.js" charset="utf-8"></script>
+  </body>
+</html>
